@@ -1,0 +1,14 @@
+# System tools
+brew "ffmpeg"
+brew "stow"
+
+# General development
+brew "neovim"
+brew "bash"
+brew "fish"
+brew "opencode"
+
+# Python development
+brew "uv"
+
+

@@ -11,7 +11,11 @@ set -gx NOREPLY 36940948+camwolff02@users.noreply.github.com
 
 switch (uname)
     case Linux
-        fish_add_path /home/cam/.pixi/bin
+        # fish_add_path /home/cam/.pixi/bin
     case Darwin
         alias tailscale "/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 end
+
+# Homebrew
+set -gx PATH /home/linuxbrew/.linuxbrew/bin $PATH
+set -gx HOMEBREW_BUNDLE_FILE "$XDG_CONFIG_HOME/brewfile/Brewfile"
