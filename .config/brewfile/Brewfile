@@ -1,6 +1,25 @@
-# System tools
+# Sync with "brew bundle"
+
+# Tools
 brew "ffmpeg"
 brew "stow"
+brew "cmake"
+brew "curl"
+brew "fastfetch"
+brew "fd"
+brew "flac"
+brew "fzf"
+brew "gcc"
+brew "git"
+brew "gh"
+brew "lazygit"
+brew "libusb"
+brew "llvm"
+brew "flatbuffers"
+brew "sqlite"
+brew "tmux"
+brew "tree"
+brew "wget"
 
 # General development
 brew "neovim"
@@ -8,7 +27,10 @@ brew "bash"
 brew "fish"
 brew "opencode"
 
-# Python development
+# Programming Langauges
 brew "uv"
-
+brew "node"
+brew "rustup-init"  # needs running "rustup-init" to setup rust
+brew "lua"
+brew "php"
 
