@@ -88,6 +88,8 @@ if OS.mac?
   cask "vlc"
   cask "tailscale-app"
   brew "tailscale"
+  cask "spotify"
+  # no feishin cask
 end
 
 if OS.linux?
@@ -109,7 +111,7 @@ if OS.linux?
   flatpak "org.gimp.GIMP"
   flatpak "com.obsproject.Studio"
   flatpak "md.obsidian.Obsidian"
-  # no orcaslicer flatpak
+  flatpak "com.orcaslicer.OrcaSlicer"
   flatpak "com.valvesoftware.Steam"
   # no balena etcher flatpak
   flatpak "com.makemkv.MakeMKV"
@@ -121,4 +123,6 @@ if OS.linux?
   flatpak "org.videolan.VLC"
   # no tailscale app flatpak
   # no point in installing tailscale-cli if no flatpak app
+  flatpak "com.spotify.Client"
+  flatpak "org.jeffvli.feishin"
 end

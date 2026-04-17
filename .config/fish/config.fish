@@ -14,3 +14,5 @@ switch (uname)
 end
 
 alias vim nvim
+
+set -gx HOMEBREW_BUNDLE_FILE "$XDG_CONFIG_HOME/brewfile/Brewfile"
