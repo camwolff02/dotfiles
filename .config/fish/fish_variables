@@ -1,3 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
+SETUVAR XDG_CONFIG_HOME:"~/.config"
+SETUVAR HOMEBREW_BUNDLE_FILE:"${XDG_CONFIG_HOME}/brewfile/Brewfile"
+SETUVAR NOREPLY:"36940948+camwolff02@users.noreply.github.com"
