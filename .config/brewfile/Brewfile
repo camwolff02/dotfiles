@@ -49,8 +49,7 @@ brew "php"
 brew "cargo-binstall"
 
 # Bun for JS
-tap "oven-sh/bun"
-brew "bun"
+brew "oven-sh/bun/bun"
 
 # AI Agent development
 brew "opencode"
