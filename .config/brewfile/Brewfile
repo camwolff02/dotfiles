@@ -2,6 +2,7 @@
 
 # Tools
 brew "ffmpeg"
+brew "bash"
 brew "stow"
 brew "cmake"
 brew "curl"
@@ -11,21 +12,21 @@ brew "flac"
 brew "fzf"
 brew "gcc"
 brew "git"
+brew "git-lfs"
 brew "gh"
 brew "lazygit"
 brew "libusb"
 brew "llvm"
-brew "flatbuffers"
-brew "sqlite"
-brew "tmux"
 brew "tree"
 brew "wget"
 
 # General development
 brew "neovim"
-brew "bash"
 brew "fish"
-brew "opencode"
+brew "docker"
+brew "flatbuffers"
+brew "sqlite"
+brew "tmux"
 
 # Programming Langauges
 brew "uv"
@@ -34,3 +35,90 @@ brew "rustup-init"  # needs running "rustup-init" to setup rust
 brew "lua"
 brew "php"
 
+# Audio
+brew "flac"
+
+# Programming languages
+brew "uv"
+brew "node"
+brew "rustup-init"  # needs running "rustup-init" to set up rust
+brew "lua"
+brew "php"
+
+# Rust package install
+brew "cargo-binstall"
+
+# Bun for JS
+tap "oven-sh/bun"
+brew "bun"
+
+# AI Agent development
+brew "opencode"
+cask "codex"
+
+if OS.mac?
+  cask "visual-studio-code"
+  cask "signal"
+  cask "godot"
+  cask "discord"
+  cask "freecad"
+  cask "zen"
+  cask "ghostty"
+  cask "zotero"
+  cask "foxglove"
+  cask "proton-mail"
+  # no darktable cask
+  cask "blender"
+  cask "libreoffice"
+  cask "microsoft-teams"
+  cask "zoom"
+  cask "gimp"
+  cask "obs"
+  cask "obsidian"
+  cask "orcaslicer"
+  cask "steam"
+  cask "balenaetcher"
+  # no makemkv cask
+  cask "jellyfin-media-player"
+  cask "localsend"
+  cask "musicbrainz-picard"
+  cask "minecraft"
+  cask "rectangle"  # macos only, windowing
+  cask "nextcloud"
+  cask "vlc"
+  cask "tailscale-app"
+  brew "tailscale"
+end
+
+if OS.linux?
+  flatpak "com.visualstudio.code"
+  flatpak "org.signal.Signal"
+  flatpak "org.godotengine.Godot", remote: "flathub-beta", url: "https://dl.flathub.org/beta-repo"
+  flatpak "com.discordapp.Discord"
+  flatpak "org.freecad.FreeCAD"
+  flatpak "app.zen_browser.zen"
+  # no ghostty flatpak
+  flatpak "org.zotero.Zotero"
+  # no foxglove flatpak
+  flatpak "me.proton.Mail"
+  flatpak "org.darktable.Darktable"
+  flatpak "org.blender.Blender"
+  flatpak "org.libreoffice.LibreOffice"
+  flatpak "com.github.IsmaelMartinez.teams_for_linux"
+  flatpak "us.zoom.Zoom"
+  flatpak "org.gimp.GIMP"
+  flatpak "com.obsproject.Studio"
+  flatpak "md.obsidian.Obsidian"
+  # no orcaslicer flatpak
+  flatpak "com.valvesoftware.Steam"
+  # no balena etcher flatpak
+  flatpak "com.makemkv.MakeMKV"
+  flatpak "org.jellyfin.JellyfinDesktop"
+  flatpak "org.localsend.localsend_app"
+  flatpak "org.musicbrainz.Picard"
+  # no minecraft flatpak
+  flatpak "com.nextcloud.desktopclient.nextcloud"
+  flatpak "org.videolan.VLC"
+  # no tailscale app flatpak
+  # no point in installing tailscale-cli if no flatpak app
+end
