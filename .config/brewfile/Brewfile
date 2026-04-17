@@ -93,7 +93,7 @@ end
 if OS.linux?
   flatpak "com.visualstudio.code"
   flatpak "org.signal.Signal"
-  flatpak "org.godotengine.Godot", remote: "flathub-beta", url: "https://dl.flathub.org/beta-repo"
+  flatpak "org.godotengine.Godot"
   flatpak "com.discordapp.Discord"
   flatpak "org.freecad.FreeCAD"
   flatpak "app.zen_browser.zen"
