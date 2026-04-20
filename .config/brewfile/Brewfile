@@ -37,6 +37,7 @@ brew "php"
 
 # Audio
 brew "flac"
+# brew "abcde"  # CD ripper, currently depricated
 
 # Programming languages
 brew "uv"
