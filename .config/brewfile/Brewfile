@@ -91,7 +91,6 @@ if OS.mac?
   brew "tailscale"
   cask "spotify"
   # no feishin cask
-  cask "zed"
 end
 
 if OS.linux?
@@ -127,5 +126,4 @@ if OS.linux?
   # no point in installing tailscale-cli if no flatpak app
   flatpak "com.spotify.Client"
   flatpak "org.jeffvli.feishin"
-  flatpak "dev.zed.Zed"
 end
