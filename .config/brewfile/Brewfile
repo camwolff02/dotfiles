@@ -27,6 +27,7 @@ brew "docker"
 brew "flatbuffers"
 brew "sqlite"
 brew "tmux"
+brew "just"
 
 # Programming Langauges
 brew "uv"

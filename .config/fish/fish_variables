@@ -1,5 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR NOREPLY:36940948\x2bcamwolff02\x40users\x2enoreply\x2egithub\x2ecom
+SETUVAR XDG_CONFIG_HOME:\x7e/\x2econfig
 SETUVAR __fish_initialized:4300
-SETUVAR XDG_CONFIG_HOME:"~/.config"
-SETUVAR NOREPLY:"36940948+camwolff02@users.noreply.github.com"
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_liamclarkenz_2F_bass2_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eliamclarkenz/bass2
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_user_paths:/home/cam/\x2elocal/bin

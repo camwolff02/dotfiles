@@ -16,3 +16,6 @@ end
 alias vim nvim
 
 set -gx HOMEBREW_BUNDLE_FILE "$XDG_CONFIG_HOME/brewfile/Brewfile"
+
+# for ROS2: setting defualt middleware to zenoh
+set -gx RMW_IMPLEMENTATION rmw_zenoh_cpp
