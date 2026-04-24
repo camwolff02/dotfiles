@@ -30,28 +30,19 @@ brew "tmux"
 brew "just"
 
 # Programming Langauges
-brew "uv"
-brew "node"
+brew "uv"  # Python environment manager
+brew "node"  # JS runtime
+brew "oven-sh/bun/bun"  # JS package manager
 brew "rustup-init"  # needs running "rustup-init" to setup rust
-brew "lua"
-brew "php"
-
-# Audio
-brew "flac"
-# brew "abcde"  # CD ripper, currently depricated
-
-# Programming languages
-brew "uv"
-brew "node"
-brew "rustup-init"  # needs running "rustup-init" to set up rust
 brew "lua"
 brew "php"
 
 # Rust package install
 brew "cargo-binstall"
 
-# Bun for JS
-brew "oven-sh/bun/bun"
+# Audio
+brew "flac"
+# brew "abcde"  # CD ripper, currently depricated
 
 # AI Agent development
 brew "opencode"
